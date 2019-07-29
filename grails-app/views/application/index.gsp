@@ -17,7 +17,7 @@
   <p>The .container class provides a responsive fixed width container.</p>
 </div>
 
-
+<div class="container">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -26,13 +26,22 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="https://www.searchtechnologies.com/images/case_studies/gsa-to-solr-migration.jpg" alt="First slide">
+      <g:img dir="images" file="shine-sketch-trend.png" class="d-block w-100" alt="First slide"/>
+ <h5>What can I do?</h5>
+    <p>Trend analysis</p>
+
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://www.cs.toronto.edu/~muuo/img/Anatomy%20of%20Search.png" alt="Second slide">
+      <g:img dir="images" file="shine-sketch-trend2.png" class="d-block w-100" alt="Second slide"/>
+ <h5>What can I do?</h5>
+    <p>Trend analysis</p>
+
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://miro.medium.com/max/1200/1*peHcT4M0_bwu__-WZQIRIA.png" alt="Third slide">
+      <g:img dir="images" file="shine-sketch-search.png" class="d-block w-100" alt="Third slide"/>
+ <h5>What can I do?</h5>
+    <p>Trend analysis</p>
+
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -44,6 +53,18 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+<div class="carousel-item">
+  <img src="..." alt="...">
+  <div class="carousel-caption d-none d-md-block">
+    <h5>What can I do?</h5>
+    <p>Trend analysis</p>
+  </div>
+</div>
+
+</div>
+
+
 
 </body>
 </html>

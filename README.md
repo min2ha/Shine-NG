@@ -27,10 +27,10 @@ grails <<environment>>* <<command name>>
 ```
 Grails searches in the following directories for Gant scripts to execute:
 ```
-* USER_HOME/.grails/scripts
-* PROJECT_HOME/src/main/scripts/
-* PROJECT_HOME/plugins/*/scripts
-* GRAILS_HOME/scripts
+USER_HOME/.grails/scripts
+PROJECT_HOME/src/main/scripts/
+PROJECT_HOME/plugins/*/scripts
+GRAILS_HOME/scripts
 ```
 You can specify the environment that the command executes in with an optional environment parameter, either with one of the built-in environment names:
 ```

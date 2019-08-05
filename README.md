@@ -17,8 +17,8 @@ Visualising Web Archive via Solr - Grails Framework version
 - **views** – contains views and templates
 
 #### WAR
-grails [environment]* war [arguments]*
-
+The war command creates a Web Application Archive (WAR) file which can be deployed on any Java EE compliant application server.
+```grails [environment]* war [arguments]*```
 By default the war command creates a web application archive (WAR) file using the application name and version number. The war command is different from most commands since it runs in the production environment by default instead of development, but like any script the environment can be specified using the standard convention:
 ```
 grails test war

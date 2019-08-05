@@ -15,3 +15,13 @@ Visualising Web Archive via Solr - Grails Framework version
 - **services** – the business logic of the application will live here. By convention, Grails will create a Spring singleton bean for each service
 - **taglib** – the place for custom tag libraries
 - **views** – contains views and templates
+
+#### WAR
+grails [environment]* war [arguments]*
+
+By default the war command creates a web application archive (WAR) file using the application name and version number. The war command is different from most commands since it runs in the production environment by default instead of development, but like any script the environment can be specified using the standard convention:
+```
+grails test war
+grails dev war
+grails prod war
+```

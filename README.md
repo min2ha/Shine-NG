@@ -19,7 +19,7 @@ A powerful Groovy-based web application framework for the JVM built on top of Sp
 - **taglib** – the place for custom tag libraries
 - **views** – contains views and templates
 
-
+### Command Line Usage
 Grails incorporates the powerful build system Gradle.
 The basic usage scenario is:
 ```

@@ -3,7 +3,7 @@ Visualising Web Archive via Solr - Grails Framework version
 
 #### Grails Framework
 A powerful Groovy-based web application framework for the JVM built on top of Spring Boot.
-[The Grails Framework]: https://grails.org/
+[The Grails Framework](https://grails.org/)
 
 ##### Grails prefers convention over configuration, therefore the location of files defines their purpose. Structure of the *grails-app* directory:
 

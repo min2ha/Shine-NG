@@ -1,6 +1,9 @@
 # Shine-NG
 Visualising Web Archive via Solr - Grails Framework version
 
+#### Grails Framework
+A powerful Groovy-based web application framework for the JVM built on top of Spring Boot
+
 ##### Grails prefers convention over configuration, therefore the location of files defines their purpose. Structure of the *grails-app* directory:
 
 - **assets** – a place where we store static assets files like styles, javascript files or images
@@ -16,6 +19,25 @@ Visualising Web Archive via Solr - Grails Framework version
 - **taglib** – the place for custom tag libraries
 - **views** – contains views and templates
 
+
+Grails incorporates the powerful build system Gradle.
+The basic usage scenario is:
+```
+grails <<environment>>* <<command name>>
+```
+Grails searches in the following directories for Gant scripts to execute:
+```
+* USER_HOME/.grails/scripts
+* PROJECT_HOME/src/main/scripts/
+* PROJECT_HOME/plugins/*/scripts
+* GRAILS_HOME/scripts
+```
+You can specify the environment that the command executes in with an optional environment parameter, either with one of the built-in environment names:
+```
+grails dev run-app
+grails test run-app
+grails prod run-app
+```
 #### WAR
 The war command creates a Web Application Archive (WAR) file which can be deployed on any Java EE compliant application server.
 ```
